@@ -1,203 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rinterio</title>
-    <!-- DaisyUI & Tailwind cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google font cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- Font Awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
 
-.font-manrope {
-  font-family: "Manrope", serif;
-}
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinterio</title>
+  <!-- DaisyUI & Tailwind cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Font Awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .font-manrope {
+      font-family: "Manrope", serif;
+    }
+  </style>
 </head>
+
 <body class="font-manrope">
-    <!-- Header Section -->
-    <header>
-        <!-- Nav Section -->
-        <div class="navbar bg-base-100 mt-14">
-            <div class="navbar-start">
-              <span class="ml-48"><i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl" style="color: #ABEF5F;" ></i></span>
-              <a class="btn btn-ghost text-4xl font-extrabold">Rinterior</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 text-base font-normal gap-7">
-                <li class="font-bold"><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end mr-48 gap-7">
-              <i class="fa-solid fa-magnifying-glass text-2xl"></i>
-              <i class="fa-solid fa-cart-shopping text-2xl"></i>
-              <a class="btn w-56 h-16 rounded-full bg-[#ABEF5F] text-xl font-extrabold">Book Consult
-                <i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl" ></i>
-              </a>
-            </div>
+  <!-- Header Section -->
+  <header>
+    <!-- Nav Section -->
+    <div class="navbar bg-base-100 mt-14">
+      <div class="navbar-start">
+        <span class="ml-48"><i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl"
+            style="color: #ABEF5F;"></i></span>
+        <a class="btn btn-ghost text-4xl font-extrabold">Rinterior</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 text-base font-normal gap-7">
+          <li class="font-bold"><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end mr-48 gap-7">
+        <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+        <i class="fa-solid fa-cart-shopping text-2xl"></i>
+        <a class="btn w-56 h-16 rounded-full bg-[#ABEF5F] text-xl font-extrabold">Book Consult
+          <i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl"></i>
+        </a>
+      </div>
+    </div>
+    <!-- Header Banner Section -->
+    <section>
+      <div class="min-h-screen">
+        <div>
+          <img class="m-auto mt-28" src="assets/banner.png" alt="">
+        </div>
+        <div class="hero-content text-center">
+          <div>
+            <h1 class="text-6xl font-extrabold mt-14 ml-[450px]">A barn house of this design <br>has a striking
+              appearance</h1>
+            <p class="py-6 mt-5 ml-96">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+              wood,sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <button class="btn w-56 h-16 rounded-full bg-[#c7f098e7] text-xl font-bold mt-7 ml-96">View Details
+              <i class="fa-solid fa-arrow-up rotate-45 text-2xl"></i>
+            </button>
           </div>
-          <!-- Header Banner Section -->
-           
-          <div class="min-h-screen">
-            <div>
-              <img class="m-auto mt-28" src="assets/banner.png" alt="">
-            </div>
-            <div class="hero-content text-center">
-              <div>
-                <h1 class="text-6xl font-extrabold mt-14 ml-[450px]">A barn house of this design <br>has a striking appearance</h1>
-                <p class="py-6 mt-5 ml-96">
-                  The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,sleek metal accents, and large windows that flood the space with natural light.
-                </p>
-                <button class="btn w-56 h-16 rounded-full bg-[#c7f098e7] text-xl font-bold mt-7 ml-96">View Details 
-                  <i class="fa-solid fa-arrow-up rotate-45 text-2xl" ></i>
-                </button>
-              </div>
-            </div>
-          </div>
-    </header>
-    <!-- Main Section -->
-    <main>
-      <!-- About Us Section -->
-       <div class="bg-base-200 pt-7">
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Main Section -->
+  <main>
+    <!-- About Us Section -->
+    <section>
+      <div class="bg-base-200 pt-7">
         <img class=" w-32 h-20 border-2 border-dashed border-gray-400 ml-64" src="assets/Vector.png" alt="">
         <button class="btn w-32 rounded-full h-9 ml-80 bg-white">
-          <i class="fa-solid fa-arrow-right text-xl" ></i>
+          <i class="fa-solid fa-arrow-right text-xl"></i>
           About Us</button>
-          <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-              <img
-                src="assets/Rectangle.png"
-                class="max-w-7xlxl align-middle rounded-lg" />
-              <div>
-                <h1 class="text-5xl font-bold">We design thoughtful,<br>liveable spaces</h1>
-                <p class="py-6">
-                  Our interior design services are tailored to transform any space into a beautiful and functional environment. We work closely with our clients to create customized designs that reflect their unique style and preferences.
-                </p>
-                <div class="flex gap-7 mt-10 w-[600px] h-36 rounded-xl bg-white">
-                  <img class="w-20 h-20 mt-7 ml-7" src="assets/commercial.png" alt="">
-                  <div class="pt-6">
-                    <h4 class="font-extrabold">Commercial</h4>
-                  <p>Our talented team of designers is committed to creating functional, aesthetically pleasing office environments <br> that inspire productivity and collaboration.</p>
-                  </div>
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img src="assets/Rectangle.png" class="max-w-7xlxl align-middle rounded-lg" />
+            <div>
+              <h1 class="text-5xl font-bold">We design thoughtful,<br>liveable spaces</h1>
+              <p class="py-6">
+                Our interior design services are tailored to transform any space into a beautiful and functional
+                environment. We work closely with our clients to create customized designs that reflect their unique
+                style and preferences.
+              </p>
+              <div class="flex gap-7 mt-10 w-[600px] h-36 rounded-xl bg-white">
+                <img class="w-20 h-20 mt-7 ml-7" src="assets/commercial.png" alt="">
+                <div class="pt-6">
+                  <h4 class="font-extrabold">Commercial</h4>
+                  <p>Our talented team of designers is committed to creating functional, aesthetically pleasing office
+                    environments <br> that inspire productivity and collaboration.</p>
                 </div>
-                <div class="flex gap-7 mt-10 w-[600px] h-36 rounded-xl bg-white">
-                  <img class="w-20 h-20 mt-7 ml-7" src="assets/residential.png" alt="">
-                  <div class="pt-6">
-                    <h4 class="font-extrabold">Residential</h4>
-                  <p>Our Residence design philosophy is simple.We create <br> pleasant environments that assist our client's <br> mental well-being growth.</p>
-                  </div>
+              </div>
+              <div class="flex gap-7 mt-10 w-[600px] h-36 rounded-xl bg-white">
+                <img class="w-20 h-20 mt-7 ml-7" src="assets/residential.png" alt="">
+                <div class="pt-6">
+                  <h4 class="font-extrabold">Residential</h4>
+                  <p>Our Residence design philosophy is simple.We create <br> pleasant environments that assist our
+                    client's <br> mental well-being growth.</p>
                 </div>
               </div>
             </div>
           </div>
-          <!-- How We Works Section -->
+        </div>
+        <!-- How We Works Section -->
         <div>
           <button class="btn w-40 rounded-full h-9 mt-28 ml-[800px] bg-white">
-            <i class="fa-solid fa-arrow-right text-xl" ></i>
+            <i class="fa-solid fa-arrow-right text-xl"></i>
             How we works</button>
-            <h3 class="text-5xl font-extrabold mt-7 ml-[650px]">Our Works Process</h3>
-            <p class="w-3/6 ml-[490px] mt-6">We transform your vision into stunning reality. Our team of skilled designers and architects are committed <br> to creating captivating outdoor environments that blend functionality, aesthetics, and sustainability.</p>
+          <h3 class="text-5xl font-extrabold mt-7 ml-[650px]">Our Works Process</h3>
+          <p class="w-3/6 ml-[490px] mt-6">We transform your vision into stunning reality. Our team of skilled designers
+            and architects are committed <br> to creating captivating outdoor environments that blend functionality,
+            aesthetics, and sustainability.</p>
         </div>
         <!-- Card 1 -->
-       <div class="flex justify-center gap-6 mt-16">
-        <div class="card bg-[#E7C1D3] w-80 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img
-              src="assets/concept.png"
-              alt="Concept"
-              class="rounded-xl mr-56" />
-          </figure>
-          <div class="card-body items-start text-start">
-            <h2 class="card-title font-extrabold">Concept</h2>
-            <p>For more than 9+ years, we've created beautiful places that add elegance, value, and usefulness to residences of every size.</p>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="card bg-[#EFDA6E] w-80 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img
-              src="assets/flow-chart.png"
-              alt="Design Process"
-              class="rounded-xl mr-56" />
-          </figure>
-          <div class="card-body items-start text-start">
-            <h2 class="card-title font-extrabold">Design Process</h2>
-            <p>Best Interior Design provides full turnkey-based services of a project. The works are:1.Space planing,2.2D/3D design etc.</p>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="card bg-[#A4DAC3] w-80 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img
-              src="assets/vision.png"
-              alt="Supervision"
-              class="rounded-xl mr-56" />
-          </figure>
-          <div class="card-body items-start text-start">
-            <h2 class="card-title font-extrabold">Supervision</h2>
-            <p>With a 3D interior designing walkthrough, you get privilege to visualize how your dream space would look after the execution.</p>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="card bg-[#77AAEA] w-80 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img
-              src="assets/budget-planning.png"
-              alt="Budget Planing"
-              class="rounded-xl mr-56" />
-          </figure>
-          <div class="card-body items-start text-start">
-            <h2 class="card-title font-extrabold">Budget Planing</h2>
-            <p>We are very transparent in our discussions with clients. We fix a meeting with the clients to discuss their concept and requirements or budget-planning.</p>
-          </div>
-        </div>
-       </div>
-       </div>
-       <!-- Our Latest Portfolio Section -->
-        <div>
-          <button class="btn w-56 rounded-full mt-36 ml-[750px] bg-[#ABEF5F33]">
-            <i class="fa-solid fa-arrow-right"></i>
-            Explore Our Latest Works</button>
-            <h3 class="text-5xl font-extrabold mt-7 ml-[650px]">Our Latest Portfolio</h3>
-            <p class="w-3/6 ml-[430px] mt-6">In the realm of exquisite interior design, where creativity meets functionality, our Interior Design Portfolios stand as a testament to unparalleled expertise and trans-formative aesthetics. Embark on a journey with us as we unravel the stories behind each curated space, weaving together a tapestry of innovation, elegance, and timeless allure.</p>
-        </div>
-        <!-- card 1 -->
-        <div class="flex justify-center gap-10">
-          <div class="card card-side bg-base-100 w-[670px] h-60 mt-20 border rounded-xl bg-white">
-            <figure>
-              <img
-                src="assets/img1.png"
-                alt="Movie"
-                class="w-96 rounded-xl" />
+        <div class="flex justify-center gap-6 mt-16">
+          <div class="card bg-[#E7C1D3] w-80 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="assets/concept.png" alt="Concept" class="rounded-xl mr-56" />
             </figure>
-            <div class="card-body">
-              <h2 class="card-title">Workstation Design</h2>
-              <p>In the dynamic landscape of contemporary workplaces, the meticulous design of workstations stands as a linchpin for fostering productivity and employee well-being. </p>
-              <div class="card-actions justify-start">
-                <button class="btn btn-ghost text-xl font-bold">View Details 
-                  <i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl" ></i>
-                </button>
-              </div>
+            <div class="card-body items-start text-start">
+              <h2 class="card-title font-extrabold">Concept</h2>
+              <p>For more than 9+ years, we've created beautiful places that add elegance, value, and usefulness to
+                residences of every size.</p>
             </div>
           </div>
-          <!-- Image Card -->
-           <div class=" w-96 h-60 mt-20 border rounded-xl bg-white">
-            <img class="pt-8 ml-6" src="assets/img2.png" alt="">
-           </div>
+          <!-- Card 2 -->
+          <div class="card bg-[#EFDA6E] w-80 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="assets/flow-chart.png" alt="Design Process" class="rounded-xl mr-56" />
+            </figure>
+            <div class="card-body items-start text-start">
+              <h2 class="card-title font-extrabold">Design Process</h2>
+              <p>Best Interior Design provides full turnkey-based services of a project. The works are:1.Space
+                planing,2.2D/3D design etc.</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card bg-[#A4DAC3] w-80 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="assets/vision.png" alt="Supervision" class="rounded-xl mr-56" />
+            </figure>
+            <div class="card-body items-start text-start">
+              <h2 class="card-title font-extrabold">Supervision</h2>
+              <p>With a 3D interior designing walkthrough, you get privilege to visualize how your dream space would
+                look after the execution.</p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="card bg-[#77AAEA] w-80 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="assets/budget-planning.png" alt="Budget Planing" class="rounded-xl mr-56" />
+            </figure>
+            <div class="card-body items-start text-start">
+              <h2 class="card-title font-extrabold">Budget Planing</h2>
+              <p>We are very transparent in our discussions with clients. We fix a meeting with the clients to discuss
+                their concept and requirements or budget-planning.</p>
+            </div>
+          </div>
         </div>
-    </main>
-    <footer>
+      </div>
+    </section>
+    <!-- Our Latest Portfolio Section -->
+    <section>
+      <div>
+        <button class="btn w-56 rounded-full mt-36 ml-[750px] bg-[#ABEF5F33]">
+          <i class="fa-solid fa-arrow-right"></i>
+          Explore Our Latest Works</button>
+        <h3 class="text-5xl font-extrabold mt-7 ml-[650px]">Our Latest Portfolio</h3>
+        <p class="w-3/6 ml-[430px] mt-6">In the realm of exquisite interior design, where creativity meets
+          functionality, our Interior Design Portfolios stand as a testament to unparalleled expertise and
+          trans-formative aesthetics. Embark on a journey with us as we unravel the stories behind each curated space,
+          weaving together a tapestry of innovation, elegance, and timeless allure.</p>
+      </div>
+      <!-- card 1 -->
+      <div class="flex justify-center gap-10">
+        <div class="card card-side bg-base-100 w-[670px] h-60 mt-20 border rounded-xl bg-white">
+          <figure>
+            <img src="assets/img1.png" alt="Movie" class="w-96 rounded-xl" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Workstation Design</h2>
+            <p>In the dynamic landscape of contemporary workplaces, the meticulous design of workstations stands as a
+              linchpin for fostering productivity and employee well-being. </p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-ghost text-xl font-bold">View Details
+                <i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Image Card 1 -->
+        <div class=" w-96 h-60 mt-20 border rounded-xl bg-white">
+          <img class="pt-8 ml-6" src="assets/img2.png" alt="">
+        </div>
+      </div>
+      <!-- Image Card 2 -->
+      <!-- Img-section 1 -->
+      <div class="flex justify-center gap-5">
+        <div class="w-56 h-60 mt-8 border rounded-xl bg-white">
+          <img class=" w-44 h-52 pt-9 ml-6" src="assets/img3.png" alt="">
+        </div>
+        <!-- Img-section 2 -->
+        <div class="card card-side bg-base-100 w-[600px] h-60 mt-8 border rounded-xl bg-white">
+          <figure>
+            <img src="assets/img4.png" alt="Movie" class="w-96 rounded-xl" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Office Design</h2>
+            <p>Integrating nature into the office environment has been proven to enhance well-being and productivity.
+              These images highlight offices that incorporate elements.</p>
+            <div class="card-actions justify-start">
+              <button class="btn btn-ghost text-xl font-bold">View Details
+                <i class="fa-solid fa-circle-arrow-up rotate-45 text-4xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Img-section 3  -->
+        <div class="w-56 h-60 mt-8 border rounded-xl bg-white">
+          <img class="w-44 h-52 pt-9 ml-6" src="assets/img5.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!--  Let's Discuss Section -->
+    <section>
+      <div class="relative text-center ">
+        <img class=" w-[1430px] h-[900px] ml-36 mt-24" src="assets/bg.jpg" alt="">
+        <div class="absolute -top-14">
+          <button class="btn w-56 rounded-full mt-36 ml-[500px] bg-[#ABEF5F33]">
+            <i class="fa-solid fa-arrow-right"></i>
+           Let's Connect</button>
+           <h3 class="text-5xl font-extrabold mt-7 ml-[560px]">Let's Discuss Next Project</h3>
+        <p class="w-3/6 ml-[560px] mt-6">If you want to design your space like our portfolios,<br> Contact us now</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
 
-    </footer>
+  </footer>
 </body>
+
 </html>
